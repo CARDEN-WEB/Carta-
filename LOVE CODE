@@ -1,5 +1,5 @@
 document.body.addEventListener('mousemove',(e)=>{
-cost heart = document.createElement('div');
+const heart = document.createElement('div');
 heart.className = 'floating-heart';
 heart.style.left = `${e.pageX}px';
 heart.style.top =`${e.pageY}px`;
